@@ -1,4 +1,9 @@
 
+const HomeController = require('../controllers/homeController')
+
 function route(app){
-    app.get('/', (req, res) => {})
+    app.get('/',HomeController.getHome);
 };
+
+
+module.exports = route;
