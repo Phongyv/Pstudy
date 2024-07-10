@@ -1,9 +1,182 @@
 
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+<head>
+        <style>
+            .homepage{
+                display: flex;
+                flex-direction: column;
+            }
+            .homepage-top img{
+                width: 100%;
+                height: 400px;
+            }
+            .homepage-body{
+                display: flex;
+                flex-direction: column;
+            }
+            .homepage-body_top{
+                padding: 30px 20px;
+                background-color: rgb(236, 236, 236);
+                display: flex;
+                flex-direction: column;
+            }
+            .homepage-body_top h1{
+                font-size: 50px;
+                text-align: center;
+                color: red;
+                margin: 0;
+                padding: 10px 0 ;
+            }
+             .homepage-body_top h2{
+                font-size: 30px;
+                text-align: center;
+                color: red;
+                margin: 0;
+                padding: 10px 0 ;
+            }
+             .homepage-body_top h3{
+                text-align: center;
+                color: red;
+                margin: 0;
+                padding: 10px 0 ;
+            }
 
-    <div class="homepage">
-        <div class=""></div>
+            .homepage-body_mid{
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+            }
+            .homepage-body_mid-item{
+                display: flex;
+                flex-direction: column;
+                background-color: antiquewhite;
+                margin: 20px 0;
+                padding: 20px 30px;
+                border-radius: 10px;
+            }
+            .homepage-body_mid-item_content{
+                display: flex;
+            }
+            .homepage-body_mid-item_content h1{
+                flex: 1;
+                padding-right: 10px;
+                color: rgb(145, 0, 0);
+                border-right: 0.5px solid red;
+            }
+            .homepage-body_mid-item_content h2{
+                flex: 3;
+                padding-left: 10px;
+                font-weight: 200;
+                font-size: 20px;
+                margin: auto 0;
+            }
+            .homepage-body_mid-item_img{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+            .homepage-body_mid-item_img img{
+                width: 350px;
+                height: 200px;
+            }
+
+
+
+            .homepage-body_bot{
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                
+            }
+            .homepage-body_bot span{
+                text-align: center;
+                font-size: 40px;
+                font-weight: 700;
+                padding-bottom: 20px;
+            }
+            .homepage-body_bot-img{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+            }
+            .homepage-body_bot-img img{
+                width: 150px;
+                height: 100px;
+               margin: 0 auto;
+            }
+
+        </style>
+</head>
+<body>
+     <div class="homepage">
+        <div class="homepage-top">
+            <img src="https://img.giaoduc.net.vn/w1000/Uploaded/2024/juznus/2023_02_20/hoc-vien-buu-chinh-vien-thong-346.jpg" alt="">
+        </div>
+        <div class="homepage-body">
+          <div class="homepage-body_mid">
+            <div class="homepage-body_mid-item">
+                <div class="homepage-body_mid-item_content">
+                    <h1>Chất lượng giáo dục và công nghệ thay đổi thế giới</h1>
+                    <h2>Tri thức – Sáng tạo — Đạo đức – Trách nhiệm là phương châm xuyên suốt định hướng cho các hoạt động đào tạo, nghiên cứu của Học viện hướng tới mục tiêu đào tạo ra những con người “vừa có tài vừa có đức” để đóng góp cho sự phát triển chung của ngành, của đất nước, của nhân loại</h2>
+                </div>
+                <div class="homepage-body_mid-item_img">
+                    <img src="https://portal.ptit.edu.vn/wp-content/uploads/2015/12/banner-fb.png" alt="">
+                    <img src="https://ict-imgs.vgcloud.vn/2022/02/25/18/nganh-moi-cong-nghe-iot-cua-ptit-du-kien-tuyen-75-sinh-vien-trong-nam-2022.jpg" alt="">
+                    <img src="https://pttc1.edu.vn/storage/1-ptit.jpg" alt="">
+                </div>
+            </div>
+             <div class="homepage-body_mid-item">
+                <div class="homepage-body_mid-item_content">
+                    <h1>Tiên phong trong Khoa học và Công nghệ</h1>
+                    <h2>Tiên phong trong Khoa học Công nghệ: Nghiên cứu và phát triển Khoa học công nghệ và Đổi mới sáng tạo là nền tảng và động lực cho sự phát triển của Học viện, gắn kết và hỗ trợ nâng cao chất lượng hoạt động đào tạo.</h2>
+                </div>
+                <div class="homepage-body_mid-item_img">
+                    <img src="https://portal.ptit.edu.vn/wp-content/uploads/2024/05/3-8.jpg" alt="">
+                    <img src="https://portal.ptit.edu.vn/wp-content/uploads/2023/05/w-hop-tac-dao-tao-nhan-luc-so-1-1-526-1-1024x625.jpg" alt="">
+                    <img src="https://portal.ptit.edu.vn/wp-content/uploads/2024/05/2-9.jpg" alt="">
+                </div>
+            </div>
+             <div class="homepage-body_mid-item">
+                <div class="homepage-body_mid-item_content">
+                    <h1>Môi trường học tập thân thiện</h1>
+                    <h2>PTIT luôn hướng tới sự đổi mới, truyền cảm hứng và duy trì những khát vọng cho tương lai của người học. Chính vì vậy, không gian giáo dục của Học viện là nơi để sinh viên thoả sức trải nghiệm và hiện thực hóa những ước mơ. Hệ thống phòng thí nghiệm được đầu tư các trang thiết bị và công nghệ hiện đại hàng đầu sẽ hỗ trợ quá trình nghiên cứu và học tập của sinh viên.</h2>
+                </div>
+                <div class="homepage-body_mid-item_img">
+                    <img src="https://cdn.portal.dtqt.edu.vn/uploads/default/images/sliders/20230911_1908110@2x.png" alt="">
+                    <img src="https://portal.ptit.edu.vn/wp-content/uploads/2021/04/HV-so-bia.jpg" alt="">
+                    <img src="https://chuyendoiso.laichau.gov.vn/uploads/news/2024_06/ptit-naver-ai.png" alt="">
+                </div>
+            </div>
+          </div>
+          <div class="homepage-body_bot">
+            <span>Đối tác của PTIT</span>
+            <div class="homepage-body_bot-img">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/c9d51ba4fa15c74cf37bf59b88b99680.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/b08f9b33ca871fbe4add1a858549780b.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/ed6b5c14fa334c6f78219b8e8eee9130.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/d3e1f848e46aa6f040d7cad9fe36c4e1.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/e35fa4974bfc88b467e99cd5aabc3ec8.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/e635883f1cd9b8297c0b6438b83b48f9(1).png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/0d0bfb63fadd86dc4d25991c1017716b.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/efc22d5f58891386b70091ad6a410a76.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/abf51ba6a63c9a93bb6c88a984faeab9.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/c917dc416d177967dceab2438bd5e6ab.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/f4bd96f7abb77d0d9efc298c18fcb4f4.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/f071df716757801f9daa1ebc2462a8ba.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/5481619ab6529635dabfc68f72769e75.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/0255645be15ac9d4c2d81b8cab529d1d.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/bb178b8aea9312a1161c678373483df5.png" alt="">
+                <img src="https://portal.dtqt.edu.vn/uploads/default/files/708afc99d239583fa8d891df8c148311.png" alt="">
+            </div>
+          </div>
+           <div class="homepage-body_top">
+            <h1>PSTUDY</h1> 
+            <h2>Học - Học Nữa - Học Mãi</h2>
+            <h3>Pstudy là trang web tổng hợp các tài liệu học tập và luyện tập dành cho sinh viên Học Viện Công Nghệ Bưu Chính Viễn Thông</h3>
+          </div>
+        </div>
+       
     </div>
+
+</body>
+   
     

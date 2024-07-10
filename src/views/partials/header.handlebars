@@ -1,0 +1,73 @@
+<head>
+    <style>
+        header{
+            display: flex;
+            height: 80px;
+            padding: 0 10px;
+            background-color: rgb(255, 255, 255);
+            border-bottom: 0.5px solid gray;
+        }
+        .header-logo{
+            flex: 1;
+            display: flex;
+            margin: auto 0;
+            border-right: 0.5px solid red;
+        }
+        .header-logo_img{
+            height: 60px;
+            flex: 1;
+        }
+        .header-logo_content{
+            display: flex;
+            flex: 2;
+            flex-direction: column;
+        }
+        .header-logo_content1{
+            font-size: 13px;
+            font-weight: 800;
+        }
+        .header-logo_content2{
+            font-size: 12px;
+        }
+
+
+        .header-navbar{
+            display: flex;
+            flex: 3;
+            margin: auto 0 ;
+        }
+        .header-navbar_item{
+            flex: 1;
+            margin: 0 auto;
+            text-align: center;
+            text-decoration: none;
+            color: rgb(53, 53, 53);
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .header-navbar_item:hover{
+            cursor: pointer;
+            color: red;
+            border-right: 0.1px solid red;
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+
+<header>
+    <div class="header-logo">
+        <img class="header-logo_img" src="https://portal.dtqt.edu.vn/icons/logo.svg" alt="">
+        <div class="header-logo_content">
+            <span class="header-logo_content1">HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG - PTIT</span>
+            <span class="header-logo_content2">POSTS AND TELECOMMUNICATIONS INSTITUTE OF TECHNOLOGY</span>
+        </div>
+    </div>
+    <div class="header-navbar">
+            <a href="/" class="header-navbar_item">Trang Chủ🏠</a>
+            <a href="/hoctap" class="header-navbar_item">Học Tập🎓</a>
+            <a href="/gioithieu" class="header-navbar_item">Giới Thiệu♾️</a>
+            <a href="donggop" class="header-navbar_item">Đóng Góp🔰</a>
+    </div>
+</header>
