@@ -1,0 +1,41 @@
+
+<head>
+    <style>
+        #tailieu{
+            padding: 20px 40px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            background-color: aliceblue;
+        }
+        .tailieu-item{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            padding: 10px 0;
+            background-color: rgb(255, 55, 55);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .tailieu-item img{
+            margin: 0 auto;
+        }
+        .tailieu-item span{
+            padding-top: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="tailieu"></div>
+    <script >
+        for(var i=0;i<10;i++){
+        var taiLieu = document.getElementById('tailieu');
+        var link = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPiSNHElYam1q2QnAwKI1IgN4WB_r8m32IvQ&s'
+        var html = `<a href="" class="tailieu-item"><img src=${link}><img/><span>name</span></a>`
+        taiLieu.innerHTML += html
+        }
+        
+    </script>
+</body>
+

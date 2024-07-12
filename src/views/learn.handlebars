@@ -1,1 +1,57 @@
-<h1>learn</h1>
+<head>
+    <style>
+        .learn{
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+            padding: 50px 40px;
+        }
+        .learn-item{
+            padding: 20px;
+            background-color: rgb(250, 2, 2);
+            border-radius: 10px;
+        }
+        .learn-item:hover{
+            transform: scale(1.05);
+        }
+        .learn-item_link{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+        }
+        .learn-item_link img{
+            width: 300px;
+            height: 300px;
+        }
+        .learn-item_link span{
+            text-decoration: none;
+            margin-top: 20px;
+            text-align: center;
+            color:rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="learn">
+        <div class="learn-item" id="learn-item">
+            <a class="learn-item_link" href="/tailieu">
+                <img src="https://media.istockphoto.com/id/1041244364/vi/vec-to/b%C3%A1o-c%C3%A1o-seo-gi%C3%A1m-s%C3%A1t-d%E1%BB%AF-li%E1%BB%87u-ph%C3%A2n-t%C3%ADch-l%C6%B0u-l%C6%B0%E1%BB%A3ng-truy-c%E1%BA%ADp-web-minh-h%E1%BB%8Da-vect%C6%A1-ph%E1%BA%B3ng-d%E1%BB%AF-li%E1%BB%87u.jpg?s=612x612&w=0&k=20&c=gnqzuV_p2xHgRRaL_xnDrXlG808dtHgoYx1yZz6-jks=" alt="">
+                <span>Tài Liệu</span>
+            </a>
+        </div>
+         <div class="learn-item">
+            <a class="learn-item_link" href="/luyentap">
+                <img src="https://media.istockphoto.com/id/1253922154/vi/vec-to/t%C3%A1c-gi%E1%BA%A3-blog-vi%E1%BA%BFt-b%C3%A0i.jpg?s=612x612&w=0&k=20&c=Bx7bj_GTuG4Vib3vSkpd6GY3jsH23GXV_yZqf6BcYsw=" alt="">
+                <span>Luyện Tập</span>
+            </a>
+        </div>
+         <div class="learn-item">
+            <a class="learn-item_link" href="/update">
+                <img src="https://oriagency.vn/upload/images/quan-tri-website-2.png" alt="">
+                <span>Đang Cập Nhật</span>
+            </a>
+        </div>
+    </div>
+</body>
